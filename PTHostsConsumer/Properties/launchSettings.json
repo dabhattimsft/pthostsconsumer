@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PTHostsConsumer (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PTHostsConsumer (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
