@@ -10,7 +10,7 @@
   <Identity
     Name="4fc07b02-8688-4a37-9897-58c2c16708c2"
     Publisher="CN=dabhatti"
-    Version="2.0.0.0" />
+    Version="3.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="4fc07b02-8688-4a37-9897-58c2c16708c2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -30,7 +30,7 @@
   </Resources>
 
   <Applications>
-    <Application Id="App"
+  <Application Id="App"
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements

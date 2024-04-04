@@ -12,5 +12,6 @@
     mc:Ignorable="d">
 
     <Grid x:Name="MainGrid">
+        <nugetViews:HostsMainPage Grid.Row="1" />
     </Grid>
 </Window>

@@ -6,10 +6,12 @@
     xmlns:local="using:SecondaryApp"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:nugetViews="using:Hosts.Views"
+    xmlns:ui="using:CommunityToolkit.WinUI"
     mc:Ignorable="d">
 
     <Grid>
-        <nugetViews:HostsMainPage Grid.Row="1" />
+        <Button Content="{ui:FontIcon Glyph=&#xe8a5;, FontSize=16}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+        <!-- <Button Content="HelloWorld" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" /> -->
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
     </Grid>
 </Window>
